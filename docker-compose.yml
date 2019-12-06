@@ -18,7 +18,7 @@ services:
       - packages:/var/proget/packages
       - extensions:/var/proget/extensions
     ports:
-      - 80:80
+      - 3067:3067
     networks: 
       - proget
 
